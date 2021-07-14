@@ -25,3 +25,12 @@ Thoughts?
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/209914165_10158192426230869_8435976014097697285_n.jpg)
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/213513900_10158192425445869_2233389688333613634_n.jpg) 
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/215242643_10158192425970869_399779924914846978_n.jpg)
+
+
+Stephen Justin 2x22 socket? thats whats i use for addons in my work. i love your suggestion. cart looks like 2x32, thats ok/better
+Ben Grimmett 1 x 32
+Mark Jelic I love it! Is that all the technical specs we have? Got a link to where we can buy them or do you have a stash?
+Ben Grimmett they're literally gameboy game carts - we have them in our store for like $8, I'll grab you the $4 link
+Mark Jelic mate I’d rather pay $8 from a local than $4 and god knows when/if it turns up!
+Stephen Justin lookedon aliexpress like $40 usd, send ur link
+Ben Grimmett https://www.aliexpress.com/item/1005001774816571.html...
