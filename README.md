@@ -34,3 +34,10 @@ Ben Grimmett they're literally gameboy game carts - we have them in our store fo
 Mark Jelic mate I’d rather pay $8 from a local than $4 and god knows when/if it turns up!
 Stephen Justin lookedon aliexpress like $40 usd, send ur link
 Ben Grimmett https://www.aliexpress.com/item/1005001774816571.html...
+
+![]()
+
+Ben Grimmett now these probably don't have the battery inside, for that you'll want a cart with the game 'perfect dark', these are a little more expensive at USD$4.50 ea shipped to AU, or you can add your own coin cell/ holder / rechargable battery if thats the way you want to go. Or, replace the sram with FRAM Stephen Justin this is a good solution and price, now for the how part.
+
+
+
