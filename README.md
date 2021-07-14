@@ -9,7 +9,9 @@ Just a suggestion for a proven, cheap, robust, plentiful supply of hot swappable
 
 Memory map:
 `0x0000-3FFF fixed to Flash Address 0x0000-3FFF`
+
 `0x4000-7FFF 256 banks, can be swapped by writing to address 0x2000.`
+
 `0xA000-BFFF 8kbytes of NVRAM. `
 
 Write protected unless 0x0A written to 0x0000. Protected if any other value is written to that address. Bank swapped by writing to 0x4000.
