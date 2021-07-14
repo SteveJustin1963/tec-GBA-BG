@@ -3,7 +3,7 @@ tec1 to GBA cartridge system
 
 
 Ben Grimmett
-tt1 hSponsogidretrd  · 
+
 TEC ROM/RAM card - 4mbytes banked Flash, 32kbytes Banked NVRAM. $4 delivered.
 Just a suggestion for a proven, cheap, robust, plentiful supply of hot swappable memory cards for a future TEC.
 
