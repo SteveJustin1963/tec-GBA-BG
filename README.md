@@ -8,6 +8,7 @@ TEC ROM/RAM card - 4mbytes banked Flash, 32kbytes Banked NVRAM. $4 delivered.
 Just a suggestion for a proven, cheap, robust, plentiful supply of hot swappable memory cards for a future TEC.
 
 Memory map:
+
 `0x0000-3FFF fixed to Flash Address 0x0000-3FFF`
 
 `0x4000-7FFF 256 banks, can be swapped by writing to address 0x2000.`
