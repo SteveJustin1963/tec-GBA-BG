@@ -41,7 +41,7 @@ Ben Grimmett now these probably don't have the battery inside, for that you'll w
 
 Ben Grimmett
 
-![]9https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/216936971_10158192456405869_8650335024998492542_n.jpg)
+![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/216936971_10158192456405869_8650335024998492542_n.jpg)
 
 clock isn't used on these, nor is audio_in. reset can be tied to z80 reset, it just sets the banks to 00's. WR and RD are for writing and reading to sram/flash/banking. CS is asserted when you want to access the sram. its otherwise z80 compatible in timings and all that good stuff. Just feed it 5v and gnd. There's also a 9600bps modem cart for the GB, IR transceiver carts, ultrasonic fish finder, aprilia scooter ecu interface, all kinds of really odd devices.
 
