@@ -35,7 +35,7 @@ Mark Jelic mate I’d rather pay $8 from a local than $4 and god knows when/if i
 Stephen Justin lookedon aliexpress like $40 usd, send ur link
 Ben Grimmett https://www.aliexpress.com/item/1005001774816571.html...
 
-![]()
+![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/Pokemon%20GBC%20Games%20Series%2016%20Bit%20Video%20Game%20Cartridge%20Console%20Card%20Classic%20Game%20Collect%20Colorful%20Version%20English%20Language_Game%20Collection%20Cards_%20-%20AliExpress.pdf)
 
 Ben Grimmett now these probably don't have the battery inside, for that you'll want a cart with the game 'perfect dark', these are a little more expensive at USD$4.50 ea shipped to AU, or you can add your own coin cell/ holder / rechargable battery if thats the way you want to go. Or, replace the sram with FRAM Stephen Justin this is a good solution and price, now for the how part.
 
