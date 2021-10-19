@@ -47,16 +47,16 @@ If you can wait for the slowboat from china:
 - BG they're literally gameboy game carts - we have them in our store for like $8, I'll grab you the $4 link. 
 - MJ mate I’d rather pay $8 from a local than $4 and god knows when/if it turns up!
 
-- SJ; looked on aliexpress. its like $40 usd, pls send ur link.
-- BG;  https://www.aliexpress.com/item/1005001774816571.html...
+- SJ looked on aliexpress. its like $40 usd, pls send ur link.
+- BG  https://www.aliexpress.com/item/1005001774816571.html...
 
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/Pokemon%20GBC%20Games%20Series%2016%20Bit%20Video%20Game%20Cartridge%20Console%20Card%20Classic%20Game%20Collect%20Colorful%20Version%20English%20Language_Game%20Collection%20Cards_%20-%20AliExpress_page-0001.jpg)
 
-- BG; now these probably don't have the battery inside, for that you'll want a cart with the game 'perfect dark', 
+- BG now these probably don't have the battery inside, for that you'll want a cart with the game 'perfect dark', 
 - these are a little more expensive at USD$4.50 ea shipped to AU, 
 - or you can add your own coin cell/ holder / rechargable battery if thats the way you want to go. 
 - Or, replace the SRAM with FRAM. 
-- SJ;  this is a good solution and price, now for the how part.
+- SJ this is a good solution and price, now for the how part.
 
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/216936971_10158192456405869_8650335024998492542_n.jpg)
 
@@ -176,5 +176,5 @@ Looks great. What can it do? Do you have a video demo?
 - And finally, the keypad CPLD - it emulates the original chip but it can also be expanded to hundreds of keys, or even a ps2 keyboard. 
 
 Can a FPGA be made to emulate a 74C923? If so, can u get FPGAs in 20 pin DIP (or SOIC) packages ? 
-- BG; yes, the second CPLD on the board emulates the '923 and heaps of room to spare. 
+- BG yes, the second CPLD on the board emulates the '923 and heaps of room to spare. 
 - I've got some dip PCBs coming in a week that'll convert the qfp package to dip 28. 
