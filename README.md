@@ -178,4 +178,8 @@ If you can wait for the slowboat from china:
 - You can also change how the 7seg driver works, the TEC must constantly refresh the LED's, you *could* code a driver in the CPLD to do that for you to free up the z80 for more important things.
 - And finally, the keypad CPLD - it emulates the original chip but it can also be expanded to hundreds of keys, or even a ps2 keyboard
 
- 
+-JEH can a FPGA be made to emulate a 74C923? If so, can u get FPGAs in 20 pin DIP (or SOIC) packages ?
+- BG yes, the second CPLD on the board emulates the '923 and heaps of room to spare. I've got some dip PCBs coming in a week that'll convert the qfp package to dip 28
+
+- SJ Ben is the circuit private? if not will u release it ? Id like to buy the next version of the pcb when its ready. awsome work.
+- BG 'll upload it in files
