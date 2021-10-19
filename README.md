@@ -1,7 +1,10 @@
 # tec-GBA-BG
-Tec-1 with a GBA cartridge system 
+Tec-1 PCB with GBA cartridge system + CPLD 
 
 by Ben Grimmett
+
+see alos https://github.com/SteveJustin1963/tec-CPLD-BG
+
 
 TEC ROM/RAM card - 4mbytes banked Flash, 32kbytes Banked NVRAM. $4 delivered.
 Just a suggestion for a proven, cheap, robust, plentiful supply of hot swappable memory cards for a future TEC.
