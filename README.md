@@ -163,18 +163,19 @@ If you can wait for the slowboat from china:
 - And jtag #2 and jtag #3 ports are swapped.
 - Need to add resistors to satisfy MonB code or fix the routine.
 - Can execute code from gameboy cart!
+- 4 PCBs up for grabs. $25plus post and I'll solder in the CPLDs and 3.3v reg and flash the code to them.  
 
-4 PCBs up for grabs. $25plus post and I'll solder in the CPLDs and 3.3v reg and flash the code to them. See Less
 
-Looks great. What can it do? Do you have a video demo? 
+- JRH Looks great. What can it do? Do you have a video demo?
 - It can run GB firmware/software, but not play GB games, right?
-- It is a tec-compatible computer with a GB cart slot to make use of a GB carts huge ROM and nvRAM capacity. 
-- It won't play GB games.
-- The idea behind this is to help you learn how to code CPLD's. 
-- Using a CPLD for address decoding for example means you can fully reconfigure the memory map in seconds and it doesn't have the same issues the original TEC did with address decoding. 
-- You can also change how the 7seg driver works, the TEC must constantly refresh the LED's, you *could* code a driver in the CPLD to do that for you to free up the z80 for more important things. 
-- And finally, the keypad CPLD - it emulates the original chip but it can also be expanded to hundreds of keys, or even a ps2 keyboard. 
+- BG It is a tec-compatible computer with a GB cart slot to make use of a GB carts huge ROM and nvRAM capacity. It won't play GB games.
+- The idea behind this is to help you learn how to code CPLD's
+- JEH will you sell a complete kit?
+- are CPLDs as complicated to program as FPGAs?
+- BG I don't have that many spare Z80's or other bits and pieces for full kits. They will include the CPLD's though, pre soldered and programmed.
+- A cpld is a fpga, just a different name (and other differences). Programming needs a $10 usb programmer from ebay (USB Blaster). As for the code, you can use the visual designer where you just drag logic chips and draw wires, or you can code in a specific language. I'll upload all the code here
+- Using a CPLD for address decoding for example means you can fully reconfigure the memory map in seconds and it doesn't have the same issues the original TEC did with address decoding.
+- You can also change how the 7seg driver works, the TEC must constantly refresh the LED's, you *could* code a driver in the CPLD to do that for you to free up the z80 for more important things.
+- And finally, the keypad CPLD - it emulates the original chip but it can also be expanded to hundreds of keys, or even a ps2 keyboard
 
-Can a FPGA be made to emulate a 74C923? If so, can u get FPGAs in 20 pin DIP (or SOIC) packages ? 
-- BG yes, the second CPLD on the board emulates the '923 and heaps of room to spare. 
-- I've got some dip PCBs coming in a week that'll convert the qfp package to dip 28. 
+ 
