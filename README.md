@@ -85,68 +85,10 @@ Need to add resistors to satisfy MonB code or fix the routine.
 Can execute code from gameboy cart!
 
 4 PCBs up for grabs. $25plus post and I'll solder in the CPLDs and 3.3v reg and flash the code to them. See Less
-Comments
-Scott Faulkner
-Sure. I'll take one. Let me know postage and I'll paypal.
- · Reply · Share · 5w
-Ben Grimmett
-Scott Faulkner I'll solder them up tonight after dinner and pm you
- · Reply · Share · 5w
-Scott Faulkner
-Ben Grimmett Great mate, muchly appreciated. If you could also point me to the cart socket and what gb cartridgbe to buy that'd be greatly appreciated too.
- · Reply · Share · 5w
-Ben Grimmett
-Scott Faulkner no problem
- · Reply · Share · 5w
-Joshua E. Hrouda
-Looks great. What can it do? Do you have a video demo?
-It can run GB firmware/software, but not play GB games, right?
- · Reply · Share · 5w
-Ben Grimmett
-Joshua E. Hrouda It is a tec-compatible computer with a GB cart slot to make use of a GB carts huge ROM and nvRAM capacity. It won't play GB games.
-The idea behind this is to help you learn how to code CPLD's
- · Reply · Share · 5w
-Ben Grimmett
-Using a CPLD for address decoding for example means you can fully reconfigure the memory map in seconds and it doesn't have the same issues the original TEC did with address decoding.
-You can also change how the 7seg driver works, the TEC must constantly refresh the LED's, you *could* code a driver in the CPLD to do that for you to free up the z80 for more important things.
-And finally, the keypad CPLD - it emulates the original chip but it can also be expanded to hundreds of keys, or even a ps2 keyboard
- · Reply · Share · 5w
-Joshua E. Hrouda
-Nope, I have been soldering for 38 years. I solder microscopic SMDs with the help of my digital microscope and a steady pair of hands. I built a TEC-1B around 1990. Sadly I don't think I have it anymore. Not sure what happened to it 😥😔😡
- · Reply · Share · 5w
-Joshua E. Hrouda
-No photo description available.
- · Reply · Share · 5w
-Joshua E. Hrouda
-May be a closeup
- · Reply · Share · 5w
-Joshua E. Hrouda
-No photo description available.
- · Reply · Share · 5w
+
+Looks great. What can it do? Do you have a video demo? It can run GB firmware/software, but not play GB games, right?
+It is a tec-compatible computer with a GB cart slot to make use of a GB carts huge ROM and nvRAM capacity. It won't play GB games.
+The idea behind this is to help you learn how to code CPLD's. Using a CPLD for address decoding for example means you can fully reconfigure the memory map in seconds and it doesn't have the same issues the original TEC did with address decoding. You can also change how the 7seg driver works, the TEC must constantly refresh the LED's, you *could* code a driver in the CPLD to do that for you to free up the z80 for more important things. And finally, the keypad CPLD - it emulates the original chip but it can also be expanded to hundreds of keys, or even a ps2 keyboard. 
 
 
-Sean Williams
-I'll take one if it's still available. PM me the payment details - postage to Melbourne.
- · Reply · Share · 5w
-Joshua E. Hrouda
-Once those 4 PCBs are sold in the future, let's say 5 or 10 years later, if I decide I'd really like one, will you be able to assist then ?
- · Reply · Share · 5w
-Ben Grimmett
-Joshua E. Hrouda 10yrs is a long time!
- · Reply · Share · 5w
-Joshua E. Hrouda
-Just saying. I dunno if or when I'll need one
- · Reply · Share · 4w
-Joshua E. Hrouda
-Ben, can a FPGA be made to emulate a 74C923? If so, can u get FPGAs in 20 pin DIP (or SOIC) packages ?
- · Reply · Share · 4w
-Ben Grimmett
-Joshua E. Hrouda yes, the second CPLD on the board emulates the '923 and heaps of room to spare. I've got some dip PCBs coming in a week that'll convert the qfp package to dip 28
- · Reply · Share · 4w
-Joshua E. Hrouda
-Ben Grimmett nice!! Is it less power hungry than the original? Are there any disadvantages in using a CPLD as a keyboard encoder? What's the price of one?
- · Reply · Share · 4w
-Joshua E. Hrouda
-Ben Grimmett sorry. It's been a while (1 week) since I read your post. I'd forgotten.
-
-
+Can a FPGA be made to emulate a 74C923? If so, can u get FPGAs in 20 pin DIP (or SOIC) packages ? BG; yes, the second CPLD on the board emulates the '923 and heaps of room to spare. I've got some dip PCBs coming in a week that'll convert the qfp package to dip 28. 
