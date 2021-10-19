@@ -21,27 +21,44 @@ How do you get code on them? You can do it in system, or use any number of GB Ca
 Not sure you can beat the bang for buck these offer. Cart sockets are $1 ea and with HUGE pins, soldering won't be a problem.
 Thoughts?
 
+### Links!
+If you want to buy from us (Goulburn NSW):
+- 4Mbyte Flash + 32K save (volatile) - https://bennvenn.myshopify.com/.../gb-c-flash-cart-4mbyte...
+- 4Mbyte + 32K battery backed (NV) - https://bennvenn.myshopify.com/.../gb-c-flash-cart-4mbyte...
+- The best cart flasher you can buy! (USB Drag and drop, no drivers, no software) - https://bennvenn.myshopify.com/.../usb-gb-c-cart-dumper...
+- Cart Sockets: https://bennvenn.myshopify.com/.../32pin-gb-c-a-cart...
+
+If you can wait for the slowboat from china:
+- 4M + 32K NV - https://www.aliexpress.com/item/4000589108517.html...
+- AVOID CHINESE FLASHERS - they're all clones of ours or others and have adopted the nickname 'firestarters' for a good reason.
+- A cheaper flasher is the GBxRW from Inside Gadgets 
+- Another Aussie company. A little slower, a little more clunky but you'll save $10 or so 
+- they don't support some chinese carts.
+- Chinese cart socket - https://www.aliexpress.com/item/4001322498055.html...
+
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/209914165_10158192426230869_8435976014097697285_n.jpg)
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/213513900_10158192425445869_2233389688333613634_n.jpg) 
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/215242643_10158192425970869_399779924914846978_n.jpg)
 
+SJ; 2x22 socket? thats whats i use for addons in my work. i love your suggestion. cart looks like 2x32, thats ok/better.
+BG; its 1 x 32
 
-Stephen Justin 2x22 socket? thats whats i use for addons in my work. i love your suggestion. cart looks like 2x32, thats ok/better
-Ben Grimmett 1 x 32
-Mark Jelic I love it! Is that all the technical specs we have? Got a link to where we can buy them or do you have a stash?
-Ben Grimmett they're literally gameboy game carts - we have them in our store for like $8, I'll grab you the $4 link
-Mark Jelic mate I’d rather pay $8 from a local than $4 and god knows when/if it turns up!
-Stephen Justin lookedon aliexpress like $40 usd, send ur link
-Ben Grimmett https://www.aliexpress.com/item/1005001774816571.html...
+MJ; I love it! Is that all the technical specs we have? Got a link to where we can buy them or do you have a stash?
+BG; they're literally gameboy game carts - we have them in our store for like $8, I'll grab you the $4 link. 
+MJ; mate I’d rather pay $8 from a local than $4 and god knows when/if it turns up!
+
+SJ; looked on aliexpress. its like $40 usd, pls send ur link.
+- BG;  https://www.aliexpress.com/item/1005001774816571.html...
 
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/Pokemon%20GBC%20Games%20Series%2016%20Bit%20Video%20Game%20Cartridge%20Console%20Card%20Classic%20Game%20Collect%20Colorful%20Version%20English%20Language_Game%20Collection%20Cards_%20-%20AliExpress_page-0001.jpg)
 
-Ben Grimmett now these probably don't have the battery inside, for that you'll want a cart with the game 'perfect dark', these are a little more expensive at USD$4.50 ea shipped to AU, or you can add your own coin cell/ holder / rechargable battery if thats the way you want to go. Or, replace the sram with FRAM Stephen Justin this is a good solution and price, now for the how part.
+BG; now these probably don't have the battery inside, for that you'll want a cart with the game 'perfect dark', these are a little more expensive at USD$4.50 ea shipped to AU, or you can add your own coin cell/ holder / rechargable battery if thats the way you want to go. Or, replace the SRAM with FRAM. 
 
-Ben Grimmett
+SJ;  this is a good solution and price, now for the how part.
 
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/216936971_10158192456405869_8650335024998492542_n.jpg)
 
+BG;
 - clock isn't used on these, nor is audio_in. 
 - reset can be tied to z80 reset, it just sets the banks to 00's. 
 - WR and RD are for writing and reading to sram/flash/banking. 
@@ -55,15 +72,15 @@ Ben Grimmett
 
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/214411736_10158192478090869_7950355688786903180_n.jpg)
 
-Maurice de Jersey Great idea. Do you have a link for the connector or a part number? Ben Grimmett You can grab them from us at $2 a pop, or i'll grab the ali link https://www.aliexpress.com/item/1005002017281326.html  Thats bulk, but they're also available in singles
+MDJ; Great idea. Do you have a link for the connector or a part number? 
+BG; You can grab them from us at $2 a pop, or i'll grab the ali link https://www.aliexpress.com/item/1005002017281326.html  
+
+Thats bulk, but they're also available in singles
 
 ![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/241389135_10158286503960869_3780352322921528001_n.jpg)
 
 
-
-Ben Grimmett
-
-Finished!
+### BG; Finished!
 
 - 0x0000-07FF EPROM
 - 0x0800-0FFF SRAM
@@ -71,23 +88,26 @@ Finished!
 - 0x4000-7FFF 4mbytes of flash
 - 0xA000-BFFF 32kbytes nvram
 
-Reproduced the keypad IC in VHDL with debounce filtering.
-
-Errors: silkscreen Rom and ram locations are swapped. Fixed in CPLD but a wr wire added. If I didn't solder the sram in I could have swapped sockets.
-
-Keypad matrix pull-ups needed, the max3000 family of CPLD don't support internal pull-ups. Fitted in the column pads instead. Could use a network resistor for a neater finish.
-
-And jtag #2 and jtag #3 ports are swapped.
-
-Need to add resistors to satisfy MonB code or fix the routine.
-
-Can execute code from gameboy cart!
+- Reproduced the keypad IC in VHDL with debounce filtering.
+- Errors: silkscreen Rom and ram locations are swapped. 
+- Fixed in CPLD but a wr wire added. If I didn't solder the sram in I could have swapped sockets.
+- Keypad matrix pull-ups needed, the max3000 family of CPLD don't support internal pull-ups. 
+- Fitted in the column pads instead. Could use a network resistor for a neater finish.
+- And jtag #2 and jtag #3 ports are swapped.
+- Need to add resistors to satisfy MonB code or fix the routine.
+- Can execute code from gameboy cart!
 
 4 PCBs up for grabs. $25plus post and I'll solder in the CPLDs and 3.3v reg and flash the code to them. See Less
 
-Looks great. What can it do? Do you have a video demo? It can run GB firmware/software, but not play GB games, right?
-It is a tec-compatible computer with a GB cart slot to make use of a GB carts huge ROM and nvRAM capacity. It won't play GB games.
-The idea behind this is to help you learn how to code CPLD's. Using a CPLD for address decoding for example means you can fully reconfigure the memory map in seconds and it doesn't have the same issues the original TEC did with address decoding. You can also change how the 7seg driver works, the TEC must constantly refresh the LED's, you *could* code a driver in the CPLD to do that for you to free up the z80 for more important things. And finally, the keypad CPLD - it emulates the original chip but it can also be expanded to hundreds of keys, or even a ps2 keyboard. 
+Looks great. What can it do? Do you have a video demo? 
+- It can run GB firmware/software, but not play GB games, right?
+- It is a tec-compatible computer with a GB cart slot to make use of a GB carts huge ROM and nvRAM capacity. 
+- It won't play GB games.
+- The idea behind this is to help you learn how to code CPLD's. 
+- Using a CPLD for address decoding for example means you can fully reconfigure the memory map in seconds and it doesn't have the same issues the original TEC did with address decoding. 
+- You can also change how the 7seg driver works, the TEC must constantly refresh the LED's, you *could* code a driver in the CPLD to do that for you to free up the z80 for more important things. 
+- And finally, the keypad CPLD - it emulates the original chip but it can also be expanded to hundreds of keys, or even a ps2 keyboard. 
 
-
-Can a FPGA be made to emulate a 74C923? If so, can u get FPGAs in 20 pin DIP (or SOIC) packages ? BG; yes, the second CPLD on the board emulates the '923 and heaps of room to spare. I've got some dip PCBs coming in a week that'll convert the qfp package to dip 28. 
+Can a FPGA be made to emulate a 74C923? If so, can u get FPGAs in 20 pin DIP (or SOIC) packages ? 
+- BG; yes, the second CPLD on the board emulates the '923 and heaps of room to spare. 
+- I've got some dip PCBs coming in a week that'll convert the qfp package to dip 28. 
