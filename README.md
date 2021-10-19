@@ -58,7 +58,7 @@ Ben Grimmett
 
 Maurice de Jersey Great idea. Do you have a link for the connector or a part number? Ben Grimmett You can grab them from us at $2 a pop, or i'll grab the ali link https://www.aliexpress.com/item/1005002017281326.html  Thats bulk, but they're also available in singles
 
-
+![](https://github.com/SteveJustin1963/tec-GBA-BG/blob/main/pics/241389135_10158286503960869_3780352322921528001_n.jpg)
 
 
 
