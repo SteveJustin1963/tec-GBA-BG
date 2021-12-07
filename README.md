@@ -1,4 +1,4 @@
-# tec-GBA-BG
+# tec-TEC1-Custom-BG
 Tec-1 PCB with GBA cartridge system + CPLD 
 
 by Ben Grimmett
