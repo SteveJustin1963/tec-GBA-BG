@@ -85,4 +85,4 @@ Tec-1 PCB with GBA cartridge system + CPLD  by Ben Grimmett
 - BG yes, the second CPLD on the board emulates the '923 and heaps of room to spare. I've got some dip PCBs coming in a week that'll convert the qfp package to dip 28
 
 - SJ Ben is the circuit private? if not will u release it ? Id like to buy the next version of the pcb when its ready. awsome work.
-- BG 'll upload it in files
+- BG 'll upload it in files 
