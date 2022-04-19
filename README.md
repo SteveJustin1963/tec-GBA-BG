@@ -50,12 +50,13 @@ Tec-1 PCB with GBA cartridge system + CPLD  by Ben Grimmett
 
 
 ### BG; Finished!
-
-- 0x0000-07FF EPROM
-- 0x0800-0FFF SRAM
-- 0x1000-17FF expansion dip
-- 0x4000-7FFF 4mbytes of flash
-- 0xA000-BFFF 32kbytes nvram
+```
+0x0000-07FF EPROM
+0x0800-0FFF SRAM
+0x1000-17FF expansion dip
+0x4000-7FFF 4mbytes of flash
+0xA000-BFFF 32kbytes nvram
+```
 
 - Reproduced the keypad IC in VHDL with debounce filtering.
 - Errors: silkscreen Rom and ram locations are swapped. 
